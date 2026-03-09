@@ -1,5 +1,4 @@
-let totalTime = 40; // Example: 1 hour 1 min 5 sec demo
-
+let totalTime = 40;
 const hourBox = document.getElementById("hours");
 const minBox  = document.getElementById("minutes");
 const secBox  = document.getElementById("seconds");
@@ -44,3 +43,4 @@ function updateClock() {
 
 updateClock();
 setInterval(updateClock, 1000);
+
